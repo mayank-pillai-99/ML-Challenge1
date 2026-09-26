@@ -1,0 +1,20 @@
+# Environments
+venv/
+env/
+.env
+
+# Pycache
+__pycache__/
+*.pyc
+
+# Heavy Data & Output Files
+../../dataset/
+../../output/
+*.zip
+*.tsv
+
+# Models
+business_entity_model/
+
+# Mac OS
+.DS_Store

@@ -1,0 +1,23 @@
+# Ignore massive datasets
+dataset/
+student_resource/dataset/
+
+# Ignore massive outputs
+output/
+student_resource/output/
+*.zip
+*.tsv
+
+# Ignore models
+business_entity_model/
+student_resource/code/business_entity_resolution/business_entity_model/
+
+# Pycache and envs
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
